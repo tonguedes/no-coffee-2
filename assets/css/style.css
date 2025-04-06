@@ -1,0 +1,1183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+/* 
+secao hero */
+
+#hero {
+    background-image: url(../images/BG\ 1.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#nosso-mercado>div>h1>div.text-center>button{
+    border-radius: 10px;
+}
+
+#hero>div>div>div.col-md-4>div>form>button{
+    border-radius: 10px;
+}
+
+#hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h2 {
+    font-size: 48px;
+}
+
+#servicos>div.text-center>button{
+    border-radius: 10px;
+}
+
+#evolucao>div.text-center>button{
+    border-radius: 10px;
+}
+
+#produtos>div.text-center>button{
+    border-radius: 10px;
+}
+
+#n-historia>div.text-center>button{
+    border-radius: 10px;
+}
+
+#card-2>div>div>button{
+    border-radius: 10px;
+}
+    
+
+.highlight {
+    background-color: #00b3fe;
+}
+
+#no-coffe-1 {
+
+    font-size: 70px !important;
+}
+
+#n-historia>div.container.py-5>h1 {
+    font-size: 60px;
+}
+
+
+
+#hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h3 {
+    font-size: 32px;
+}
+
+
+
+#hero>div>div>div.col-md-4>div>h4 {
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 8%;
+
+}
+
+#hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>div>div.box.me-2>img {
+    color: #fff !important
+}
+
+#hero>div>div>div.col-md-4>div {
+    border-radius: 50px !important;
+    height: 90%;
+    width: 500px;
+}
+
+
+#hero>div>div>div.col-md-4>div>form>button {
+    font-size: 17px;
+}
+
+
+
+
+#nosso-mercado {
+    border: 1px solid gray;
+}
+
+/* secão 2 */
+#nosso-mercado>div>h1 {
+    font-size: 60px;
+
+}
+
+.card {
+    background-color: #000;
+    /* Fundo preto */
+    color: #fff;
+    /* Texto branco */
+    border: none;
+    text-align: center;
+    border-radius: 38px;
+    padding: 15px;
+    margin-top: 14%;
+}
+
+.card img {
+    margin-top: 5% !important;
+    width: 80%;
+    /* Reduz a largura da imagem para deixar mais borda preta */
+    margin: 0 auto;
+    /* Centraliza a imagem dentro do card */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+#nosso-mercado>div>h1>div>div:nth-child(1)>div>div>h5:nth-child(1) {
+    font-size: 35px !important;
+
+}
+
+#nosso-mercado>div>h1>div>div:nth-child(1)>div>div>p {
+    font-size: 38px !important;
+
+}
+
+#nosso-mercado>div>h1>div>div:nth-child(1)>div>div>h5:nth-child(3) {
+    font-size: 35px !important;
+
+}
+
+/* box-2 */
+#nosso-mercado>div>h1>div>div:nth-child(2)>div>div>h5:nth-child(1) {
+    font-size: 38px !important;
+}
+
+#nosso-mercado>div>h1>div>div:nth-child(2)>div>div>p {
+    font-size: 32px !important;
+}
+
+#nosso-mercado>div>h1>div>div:nth-child(2)>div>div>h5:nth-child(3) {
+    font-size: 38px;
+}
+
+/* box-3 */
+#nosso-mercado>div>h1>div>div:nth-child(3)>div>div>h5 {
+    font-size: 45px;
+}
+
+#nosso-mercado>div>h1>div>div:nth-child(3)>div>div>p {
+    font-size: 38px;
+}
+
+/* seção-3 */
+#servicos>div>h2 {
+    font-size: 50px;
+
+
+
+}
+
+
+#n-historia>div.text-center>button {
+    margin-top: 1%;
+}
+
+#evolucao>div.text-center>button {
+    margin-top: -4%;
+}
+
+#cards-secao-3 {
+    color: #000;
+    /* Texto preto */
+    border: solid 1px gray;
+    /* Borda */
+    text-align: left;
+    border-radius: 38px;
+    padding: 20px;
+    /* Espaço interno do card */
+    position: relative;
+    /* Permite posicionar o ícone fora da borda */
+}
+
+#cards-secao-3>img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    /* Posiciona o ícone fora da borda do card */
+    top: -37px;
+    /* Ajusta a posição vertical do ícone */
+    left: 37%;
+    /* Ajusta a posição horizontal do ícone */
+    text-align: center;
+}
+
+.card-title-2 {
+    font-size: 22px;
+    font-weight: bold;
+
+    margin-top: 10%;
+    /* Espaçamento do texto para não sobrepor o ícone */
+}
+
+
+
+.card-text-2 {
+    font-size: 18px;
+    /* margin-left: 60px; */
+    /* Espaçamento do texto para não sobrepor o ícone */
+    margin-top: 5px;
+    height: 40% !important;
+
+}
+
+
+
+/* EVOLUÇÃO */
+#evolucao {
+    background-image: url(../images/background-3.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+}
+
+#evolucao>div>h2 {
+    font-size: 65px;
+
+}
+
+#evolucao>div>p.text-align-start {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#evolucao>div>p:nth-child(3) {
+    font-size: 25px;
+}
+
+#servicos>div.text-center>button {
+
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+
+/* NOSSA HISTÓRIA */
+
+#n-historia {
+    background-image: url(../images/background-4.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+}
+
+#nossa\ história>div>h1 {
+    font-size: 60px !important;
+}
+
+#n-historia>div>div>div>div:nth-child(2)>p {
+    font-size: 25px;
+    text-transform: lowercase;
+    margin-top: 20%;
+    margin-left: 7%;
+}
+
+/* produtos */
+
+
+#produtos>div>h2 {
+    font-size: 80px;
+}
+
+#produtos {
+    background-image: url(../images/background-5.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+    background-position: center;
+}
+
+#produtos>div.text-center>button {
+    margin-top: 2%;
+}
+
+#produtos>p {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 2%;
+    text-align: initial;
+}
+
+/* negocio */
+#negocio>div>div>div:nth-child(1)>h2 {
+    font-size: 100px;
+
+}
+
+
+
+
+#negocio>div>div>div:nth-child(1)>h2 {
+    margin-top: 22%;
+}
+
+.text-container {
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+/* efeito-1 */
+
+.text-left,
+.text-right {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.text-left span,
+.text-right span {
+    font-weight: normal;
+    font-size: 0.8em;
+    display: block;
+}
+
+.separator {
+    width: 5px;
+    height: 70px;
+    background-color: #00b3fe;
+    margin: 0 30px;
+}
+
+/* efeito-2 */
+.info-container {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+.info-item {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+.info-item span {
+    font-size: 0.7em;
+    font-weight: normal;
+
+}
+
+.separator-2 {
+    width: 280px;
+    /* Ajuste conforme necessário */
+    height: 5px;
+    background-color: #00b3fe;
+
+}
+
+
+/* lojas */
+#lojas {
+    background-color: #212529;
+    border: 1px solid gray;
+}
+
+
+#card-2 {
+    background-color: #fff;
+    /* Fundo preto */
+    color: #000;
+    /* Texto branco */
+    border: none;
+    text-align: center;
+    border-radius: 38px;
+    padding: 15px;
+    margin-top: 15%;
+}
+
+.card img {
+    margin-top: 5% !important;
+    width: 80%;
+    /* Reduz a largura da imagem para deixar mais borda preta */
+    margin: 0 auto;
+    /* Centraliza a imagem dentro do card */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+#card-2>div>h5 {
+    font-size: 35px;
+}
+
+#card-2>div>p:nth-child(2) {
+    font-size: 26px;
+    font-weight: 700;
+
+}
+
+#card-2>div>p:nth-child(3) {
+    font-size: 24px;
+    margin-right: 30%;
+}
+
+#card-2>div>p:nth-child(4) {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+/* Formulário */
+#formulario {
+    background-image: url(../images/bg-6.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+}
+
+.card-3 {
+    background-color: #FFF;
+    border-radius: 50px;
+    max-width: 700px;
+    width: 70%;
+    /* Reduzi para dar mais margem */
+    padding: 70px;
+    /* Aumentei o espaço interno */
+    margin: 0 100px;
+    /* Margem lateral maior */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 12%;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    color: #000
+}
+
+
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+#capitalInvestir {
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-content-center>p {
+    font-size: 30px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+
+/* Ajustes para dispositivos pequenos */
+@media (max-width: 768px) {
+    #hero {
+        height: 120%;
+
+    }
+
+    #negocio>div>div>div:nth-child(1)>h2>span {
+        font-size: 33px !important;
+
+
+    }
+
+    #carouselExampleIndicators>div>div:nth-child(3)>div>div>div>p {
+        font-size: 25px;
+    }
+
+
+
+    #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h2 {
+        font-size: 28px;
+    }
+
+    #hero .col-md-8 {
+        margin-top: -5% !important;
+    }
+
+    #hero .p-4 {
+        padding: 20px;
+    }
+
+    #no-coffe-1 {
+        font-size: 30px !important;
+    }
+
+    #hero form button {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    #hero>div>div>div.col-md-4>div>form>button {
+        font-size: 15px;
+        margin-top: 5%;
+
+    }
+
+
+    #produtos>p {
+        font-size: 30px;
+        margin-top: 8%;
+    }
+
+    #carouselExample>div>div.carousel-item.active>div>div:nth-child(1)>img {
+        height: 80%;
+        margin-top: 12%;
+    }
+
+
+    /* efeito-2 */
+    .info-container {
+        text-align: left;
+        margin-left: 20%;
+        margin-top: 8%;
+    }
+
+    .info-item {
+        font-size: 1.50em;
+        font-weight: bold;
+        margin-bottom: 5px;
+        position: relative;
+    }
+
+    .info-item span {
+        font-size: 0.7em;
+        font-weight: normal;
+
+    }
+
+    .separator-2 {
+        width: 200px;
+        /* Ajuste conforme necessário */
+        height: 5px;
+        background-color: #00b3fe
+    }
+
+    #card-2 {
+        margin-top: -1%;
+    }
+
+    #card-2>div>h5 {
+        font-size: 15px;
+    }
+
+
+    .card-3 {
+        background-color: #FFF;
+        border-radius: 30px;
+        max-width: 400px;
+        width: 50%;
+        /* Reduzi para dar mais margem */
+        padding: 0 70px;
+        /* Aumentei o espaço interno */
+        margin: 0;
+        /* Margem lateral maior */
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        margin-top: -1%;
+
+    }
+
+    /* formulario */
+    #formulario {
+        margin-top: -6%;
+        height: 99%;
+    }
+
+    #formulario>div>div>div>h5 {
+        font-size: 12px;
+    }
+
+    #formulario>div>div>div>form>button {
+        font-size: 10px;
+    }
+
+    #servicos>div.text-center>button {
+        font-size: 15px;
+        margin-top: 12%;
+    }
+
+    #servicos {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+    /* Quando for desktop */
+    .carousel-item .row {
+        display: flex;
+        justify-content: center;
+
+
+        /* Reduzindo espaço entre imagens */
+    }
+
+    .carousel-item img {
+        max-width: 88%;
+
+        /* Ajusta tamanho das imagens */
+    }
+}
+
+
+/* efeitos carrosel */
+
+
+@media (max-width: 768px) {
+    #hero {
+        background-position: right;
+    }
+
+    #hero>div>div>div.col-md-4>div {
+        height: auto;
+        width: auto;
+    }
+
+    #no-coffe-1 {
+        text-align: center;
+    }
+
+    #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h1:nth-child(3) {
+        text-align: center;
+    }
+
+    #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>div {
+        text-align: center;
+    }
+
+
+    h2 {
+        font-size: 30px !important;
+        text-align: center;
+        /* Centraliza no mobile */
+    }
+
+    p {
+
+        font-size: 17px !important;
+    }
+
+    #evolucao {
+        height: 80%;
+    }
+
+    #produtos>p {
+        font-size: 16px !important;
+        max-width: 500px;
+        max-height: 100px;
+
+    }
+
+    #evolucao>div>h2>span {
+        font-size: 32px !important;
+
+    }
+
+    #evolucao>div>h2> {
+        margin-top: -10 !important;
+    }
+
+    /* 
+            secao 3 */
+    #n-historia>div.container.py-5>div>div>div:nth-child(2)>p {
+        margin-top: -10%;
+        text-align: start !important;
+    }
+
+    #negocio>div>div>div:nth-child(1)>h2 {
+        margin-top: -1%;
+    }
+
+    #n-historia>div.container.py-5>h1 {
+        font-size: 30px !important;
+    }
+
+    #logoCarousel {
+        margin-top: -25% !important;
+    }
+
+    .card-title-2 {
+        font-size: 15px;
+    }
+
+    #evolucao>div>h2>span {
+        font-size: 30px;
+
+    }
+
+    #formulario>div>div>div>form>button {
+        font-size: 10px;
+    }
+
+    .card-3 {
+        width: 90%;
+        padding: 50px;
+        height: 50%;
+
+    }
+
+
+    #n-historia {
+        height: 90%;
+    }
+
+    #n-historia>div.text-center>button {
+        margin-top: -15%;
+    }
+
+    #nosso-mercado>div>h1 {
+        font-size: 35px;
+    }
+
+    #nosso-mercado>div>h1>div.text-center>button {
+        margin-top: 12% !important;
+    }
+
+    .text-left,
+    .text-right {
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+
+    #produtos>div.text-center>button {
+        margin-top: 8% !important;
+    }
+
+    #carouser-mercado {
+        height: auto;
+    }
+
+    #nosso-mercado>div>h1>div.text-center>button {
+        margin-top: 15% !important;
+    }
+
+    #evolucao>div.container>p:nth-child(3) {
+        margin-top: -5% !important;
+        text-align: center;
+    }
+
+    #evolucao>div>p.text-align-start {
+        text-align: center;
+    }
+
+
+
+    #c-produto-1,
+    #c-produto-2,
+    #c-produto-3 {
+        width: 90%;
+        /* Ajuste conforme necessário */
+        height: 95%;
+        margin-top: 3%;
+        margin-left: 5%;
+        /* Mantém a proporção e evita deformação */
+    }
+
+    #negocio>div>div>div:nth-child(1)>h2 {
+      
+    }
+
+
+    .card-body {
+        text-align: center;
+    }
+
+    .card-body p,
+    .card-body h5 {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+
+
+    #card-2>div>h5 {
+        font-size: 25px !important;
+
+
+    }
+
+    #card-2>div>p:nth-child(2)>span {
+        text-align: center;
+    }
+
+    #card-2>div>p.text-align-start>span {
+        text-align: center;
+    }
+
+    #card-2>div>p.text-align-start {
+        text-align: center;
+    }
+
+
+
+}
+
+/* Ocultar o carrossel em telas maiores */
+@media (min-width: 768px) {
+    .carousel-container {
+        display: none;
+    }
+}
+
+/* Ocultar os cards normais em telas menores */
+@media (max-width: 767px) {
+    .normal-container {
+        display: none;
+    }
+}
+
+
+
+/* Ocultar os cards normais em telas menores */
+@media (max-width: 767px) {
+    .normal-container-2 {
+        display: none;
+    }
+}
+
+/* Ocultar o carrossel em telas maiores */
+@media (min-width: 768px) {
+    .carousel-container-2 {
+        display: none;
+    }
+}
+
+/* Ocultar os cards normais em telas menores */
+@media (max-width: 767px) {
+    .normal-container-3 {
+        display: none;
+    }
+}
+
+/* Ocultar o carrossel em telas maiores */
+@media (min-width: 768px) {
+    .carousel-container-3 {
+        display: none;
+    }
+}
+
+/* iPhone SE (2020 e 2022) - largura de 375px */
+@media (max-width: 375px) {
+
+    #produtos>p {
+        display: none;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    #produtos>p {
+        display: block;
+        font-size: 13px !important;
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* Centralizando melhor as seções */
+    .carousel-item .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Ajustando tamanho das imagens para tablets */
+    .carousel-item img {
+        max-width: 75%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /* Ajuste da tipografia */
+    h2 {
+        font-size: 28px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+
+    /* Melhoria no espaçamento das seções */
+    #hero {
+        background-position: center;
+    }
+
+    #negocio h2 {
+        margin-top: 2%;
+    }
+
+    /* Ajuste de botões */
+    .btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    /* Ajuste específico para o carrossel */
+    .carousel-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Correção para cards */
+    .card-title-2 {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+.card-text-2 {
+    margin-bottom: 15px;
+    /* Ajuste conforme necessário */
+}
+
+@media (max-width: 600px) {
+    .card-title-2 {
+        font-size: 18px;
+        text-align: center;
+        /* Centraliza para melhor legibilidade */
+    }
+
+    .card-text-2 {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#cards-secao-3>div>p {
+    font-size: 15PX;
+}
+
+
+.navbar {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img {
+    max-width: 200px;
+    /* Ajuste conforme necessário */
+    display: block;
+    margin: auto;
+}
+
+#hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>div {
+    margin-left: 3%;
+}
+
+/* responsividade para notebook */
+
+/* Responsividade para Notebooks (largura entre 1024px e 1440px) */
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+    /* Hero Section */
+    #hero {
+        background-position: center;
+        height: 80vh; /* Ajusta a altura do herói */
+    }
+    
+    .contact-form-1{
+        height: 50%;
+    }
+    #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h2 {
+        font-size: 40px; /* Ajusta o tamanho da fonte no hero */
+    }
+
+    #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h3 {
+        font-size: 28px; /* Ajusta o tamanho da fonte do h3 no hero */
+    }
+
+    /* Ajuste para os botões */
+    #hero>div>div>div.col-md-4>div>form>button,
+    #servicos>div.text-center>button,
+    #evolucao>div.text-center>button,
+    #produtos>div.text-center>button,
+    #n-historia>div.text-center>button,
+    #card-2>div>div>button {
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    /* Ajuste do tamanho das fontes em seções como "Nosso Mercado", "Serviços" e "Evolução" */
+    #nosso-mercado>div>h1 {
+        font-size: 50px;
+    }
+
+ 
+
+    #servicos>div>h2 {
+        font-size: 45px;
+    }
+
+    #evolucao>div>h2 {
+        font-size: 50px;
+    }
+
+    #produtos>div>h2 {
+        font-size: 60px;
+    }
+
+    /* Ajuste para os textos e imagens em cards */
+    .card {
+        padding: 20px;
+        margin-top: 5%;
+    }
+
+    .card img {
+        width: 70%; /* Ajusta o tamanho das imagens */
+        margin: 0 auto;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-text {
+        font-size: 1.2rem;
+    }
+
+    /* Ajuste nos tamanhos de texto do "Nosso Mercado" */
+    #nosso-mercado>div>h1>div>div>h5 {
+        font-size: 30px;
+    }
+
+    #nosso-mercado>div>h1>div>div>p {
+        font-size: 32px;
+    }
+
+    /* Seção de Produtos */
+    #produtos>p {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    #produtos>div.text-center>button {
+        font-size: 18px;
+    }
+
+    /* Ajuste do botão de "Evolução" */
+    #evolucao>div.text-center>button {
+        font-size: 18px;
+        margin-top: 3%;
+    }
+
+    /* Ajuste do formulário */
+    #formulario {
+        height: 60vh; /* Ajusta o tamanho do formulário */
+        margin-top: 10%;
+    }
+
+    .card-3 {
+        max-width: 600px;
+        width: 70%;
+        padding: 40px;
+        margin: 0 auto;
+    }
+
+    /* Ajuste do texto no rodapé */
+    body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-content-center>p {
+        font-size: 24px;
+        font-weight: bolder;
+    }
+    
+    /* Ajuste de tamanho do carrossel */
+    .carousel-item img {
+        max-width: 80%;
+    }
+}
+
+/* Ajuste adicional de tipografia e espaçamento para telas médias */
+@media (min-width: 1024px) {
+    /* Ajustes de fontes e espaçamentos */
+    h2, h3, p {
+        line-height: 1.3; /* Ajuste o espaçamento de linha para melhor legibilidade */
+    }
+
+    .text-left,
+    .text-right {
+        font-size: 1.5rem; /* Ajuste o tamanho da fonte */
+    }
+
+    #evolucao{
+        height: 88vh !important;
+    }
+
+    #hero > div:nth-child(1) > div:nth-child(1) > div:nth-child(2){
+        margin-top: 2% !important;
+    }
+     
+  
+
+    #n-historia > div:nth-child(1) > h1:nth-child(1)
+    {
+        margin-top: -1%;
+    }
+
+    #n-historia {
+        height: 120vh;
+    }
+
+    p.text-center:nth-child(5){
+        display: none;
+    }
+}
