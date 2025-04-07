@@ -24,6 +24,8 @@ if (utmSource) {
 
 console.log(origem_completa);
 
+
+
 // Atualizando valores nos campos do formulário
 document.querySelectorAll('[id^="cf_duna_origem_lead"]').forEach(e => e.value = origem);
 document.querySelectorAll('[id^="cf_duna_origem_completa"]').forEach(e => e.value = origem_completa);
@@ -139,5 +141,23 @@ document.querySelectorAll(".mask-tel").forEach(input => {
         }
 
         event.target.value = value;
+    });
+});
+
+
+
+// verifica e pega o elemento capital para investir
+
+document.addEventListener("DOMContentLoaded", function () {
+    const selectElement = document.getElementById("capitalInvestir");
+
+    selectElement.addEventListener("change", function () {
+        const selectedValue = selectElement.value;
+
+        // Verifica se o usuário escolheu uma opção válida
+        if (selectedValue !== "Capital disponível para investir") {
+            console.log("Valor selecionado:", selectedValue);
+
+        }
     });
 });

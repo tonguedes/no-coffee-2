@@ -22,11 +22,11 @@ secao hero */
 
 }
 
-#nosso-mercado>div>h1>div.text-center>button{
+#nosso-mercado>div>h1>div.text-center>button {
     border-radius: 10px;
 }
 
-#hero>div>div>div.col-md-4>div>form>button{
+#hero>div>div>div.col-md-4>div>form>button {
     border-radius: 10px;
 }
 
@@ -34,26 +34,26 @@ secao hero */
     font-size: 48px;
 }
 
-#servicos>div.text-center>button{
+#servicos>div.text-center>button {
     border-radius: 10px;
 }
 
-#evolucao>div.text-center>button{
+#evolucao>div.text-center>button {
     border-radius: 10px;
 }
 
-#produtos>div.text-center>button{
+#produtos>div.text-center>button {
     border-radius: 10px;
 }
 
-#n-historia>div.text-center>button{
+#n-historia>div.text-center>button {
     border-radius: 10px;
 }
 
-#card-2>div>div>button{
+#card-2>div>div>button {
     border-radius: 10px;
 }
-    
+
 
 .highlight {
     background-color: #00b3fe;
@@ -814,9 +814,7 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
         /* Mantém a proporção e evita deformação */
     }
 
-    #negocio>div>div>div:nth-child(1)>h2 {
-      
-    }
+    #negocio>div>div>div:nth-child(1)>h2 {}
 
 
     .card-body {
@@ -971,6 +969,201 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
     }
 }
 
+
+
+
+
+/* responsividade para notebook */
+
+/* Responsividade para Notebooks (largura entre 1024px e 1440px) */
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+
+    /* Hero Section */
+    #hero {
+        background-position: center;
+        height: 80vh;
+        /* Ajusta a altura do herói */
+    }
+
+
+    .contact-form-1 {
+        height: 50%;
+    }
+
+    #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h2 {
+        font-size: 40px;
+        /* Ajusta o tamanho da fonte no hero */
+    }
+
+    #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h3 {
+        font-size: 28px;
+        /* Ajusta o tamanho da fonte do h3 no hero */
+    }
+
+    /* Ajuste para os botões */
+    #hero>div>div>div.col-md-4>div>form>button,
+    #servicos>div.text-center>button,
+    #evolucao>div.text-center>button,
+    #produtos>div.text-center>button,
+    #n-historia>div.text-center>button,
+    #card-2>div>div>button {
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    /* Ajuste do tamanho das fontes em seções como "Nosso Mercado", "Serviços" e "Evolução" */
+    #nosso-mercado>div>h1 {
+        font-size: 50px;
+    }
+
+
+
+    #servicos>div>h2 {
+        font-size: 45px;
+    }
+
+    #evolucao>div>h2 {
+        font-size: 50px;
+    }
+
+    #produtos>div>h2 {
+        font-size: 60px;
+    }
+
+    /* Ajuste para os textos e imagens em cards */
+    .card {
+        padding: 20px;
+        margin-top: 5%;
+    }
+
+    .card img {
+        width: 70%;
+        /* Ajusta o tamanho das imagens */
+        margin: 0 auto;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-text {
+        font-size: 1.2rem;
+    }
+
+    /* Ajuste nos tamanhos de texto do "Nosso Mercado" */
+    #nosso-mercado>div>h1>div>div>h5 {
+        font-size: 30px;
+    }
+
+    #nosso-mercado>div>h1>div>div>p {
+        font-size: 32px;
+    }
+
+    /* Seção de Produtos */
+    #produtos>p {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    #produtos>div.text-center>button {
+        font-size: 18px;
+    }
+
+    /* Ajuste do botão de "Evolução" */
+    #evolucao>div.text-center>button {
+        font-size: 18px;
+        margin-top: 3%;
+    }
+
+    /* Ajuste do formulário */
+    #formulario {
+        height: 60vh;
+        /* Ajusta o tamanho do formulário */
+        margin-top: 10%;
+    }
+
+    .card-3 {
+        max-width: 600px;
+        width: 70%;
+        padding: 40px;
+        margin: 0 auto;
+    }
+
+    /* Ajuste do texto no rodapé */
+    body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-content-center>p {
+        font-size: 24px;
+        font-weight: bolder;
+    }
+
+    /* Ajuste de tamanho do carrossel */
+    .carousel-item img {
+        max-width: 80%;
+    }
+}
+
+/* Ajuste adicional de tipografia e espaçamento para telas médias */
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+
+    /* Ajustes de fontes e espaçamentos */
+    h2,
+    h3,
+    p {
+        line-height: 1.3;
+        /* Ajuste o espaçamento de linha para melhor legibilidade */
+    }
+
+    .text-left,
+    .text-right {
+        font-size: 1.5rem;
+        /* Ajuste o tamanho da fonte */
+    }
+
+    #evolucao {
+        height: 88vh !important;
+    }
+
+    #hero>div:nth-child(1)>div:nth-child(1)>div:nth-child(2) {
+        margin-top: 2% !important;
+    }
+
+
+
+    #n-historia>div:nth-child(1)>h1:nth-child(1) {
+        margin-top: -1%;
+    }
+
+    #n-historia {
+        height: 120vh;
+    }
+
+    p.text-center:nth-child(5) {
+        display: none;
+    }
+
+    #produtos>p {
+        font-size: 30px !important;
+    }
+}
+
+
+#carouselExampleIndicators-4 .carousel-control-prev-icon,
+#carouselExampleIndicators-4 .carousel-control-next-icon {
+    filter: invert(1);
+    /* Deixa a seta preta */
+    background-color: transparent !important;
+    /* Remove qualquer fundo */
+}
+
+
+#carouselExampleIndicators-2 .carousel-control-prev-icon,
+#carouselExampleIndicators-2 .carousel-control-next-icon {
+    filter: invert(1);
+    /* Deixa a seta preta */
+    background-color: transparent !important;
+    /* Remove qualquer fundo */
+}
+
 .card-text-2 {
     margin-bottom: 15px;
     /* Ajuste conforme necessário */
@@ -1022,162 +1215,4 @@ body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-conte
 
 #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>div {
     margin-left: 3%;
-}
-
-/* responsividade para notebook */
-
-/* Responsividade para Notebooks (largura entre 1024px e 1440px) */
-@media (min-width: 1024px) and (max-width: 1440px) {
-
-    /* Hero Section */
-    #hero {
-        background-position: center;
-        height: 80vh; /* Ajusta a altura do herói */
-    }
-    
-    .contact-form-1{
-        height: 50%;
-    }
-    #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h2 {
-        font-size: 40px; /* Ajusta o tamanho da fonte no hero */
-    }
-
-    #hero>div>div>div.col-md-8.d-flex.flex-column.justify-content-center.text-start>h3 {
-        font-size: 28px; /* Ajusta o tamanho da fonte do h3 no hero */
-    }
-
-    /* Ajuste para os botões */
-    #hero>div>div>div.col-md-4>div>form>button,
-    #servicos>div.text-center>button,
-    #evolucao>div.text-center>button,
-    #produtos>div.text-center>button,
-    #n-historia>div.text-center>button,
-    #card-2>div>div>button {
-        border-radius: 10px;
-        font-size: 16px;
-    }
-
-    /* Ajuste do tamanho das fontes em seções como "Nosso Mercado", "Serviços" e "Evolução" */
-    #nosso-mercado>div>h1 {
-        font-size: 50px;
-    }
-
- 
-
-    #servicos>div>h2 {
-        font-size: 45px;
-    }
-
-    #evolucao>div>h2 {
-        font-size: 50px;
-    }
-
-    #produtos>div>h2 {
-        font-size: 60px;
-    }
-
-    /* Ajuste para os textos e imagens em cards */
-    .card {
-        padding: 20px;
-        margin-top: 5%;
-    }
-
-    .card img {
-        width: 70%; /* Ajusta o tamanho das imagens */
-        margin: 0 auto;
-    }
-
-    .card-title {
-        font-size: 1.5rem;
-    }
-
-    .card-text {
-        font-size: 1.2rem;
-    }
-
-    /* Ajuste nos tamanhos de texto do "Nosso Mercado" */
-    #nosso-mercado>div>h1>div>div>h5 {
-        font-size: 30px;
-    }
-
-    #nosso-mercado>div>h1>div>div>p {
-        font-size: 32px;
-    }
-
-    /* Seção de Produtos */
-    #produtos>p {
-        font-size: 30px;
-        text-align: center;
-        margin-top: 5%;
-    }
-
-    #produtos>div.text-center>button {
-        font-size: 18px;
-    }
-
-    /* Ajuste do botão de "Evolução" */
-    #evolucao>div.text-center>button {
-        font-size: 18px;
-        margin-top: 3%;
-    }
-
-    /* Ajuste do formulário */
-    #formulario {
-        height: 60vh; /* Ajusta o tamanho do formulário */
-        margin-top: 10%;
-    }
-
-    .card-3 {
-        max-width: 600px;
-        width: 70%;
-        padding: 40px;
-        margin: 0 auto;
-    }
-
-    /* Ajuste do texto no rodapé */
-    body>footer>div>div.row.text-center.text-md-start>div.col-md-3.row.justify-content-center>p {
-        font-size: 24px;
-        font-weight: bolder;
-    }
-    
-    /* Ajuste de tamanho do carrossel */
-    .carousel-item img {
-        max-width: 80%;
-    }
-}
-
-/* Ajuste adicional de tipografia e espaçamento para telas médias */
-@media (min-width: 1024px) {
-    /* Ajustes de fontes e espaçamentos */
-    h2, h3, p {
-        line-height: 1.3; /* Ajuste o espaçamento de linha para melhor legibilidade */
-    }
-
-    .text-left,
-    .text-right {
-        font-size: 1.5rem; /* Ajuste o tamanho da fonte */
-    }
-
-    #evolucao{
-        height: 88vh !important;
-    }
-
-    #hero > div:nth-child(1) > div:nth-child(1) > div:nth-child(2){
-        margin-top: 2% !important;
-    }
-     
-  
-
-    #n-historia > div:nth-child(1) > h1:nth-child(1)
-    {
-        margin-top: -1%;
-    }
-
-    #n-historia {
-        height: 120vh;
-    }
-
-    p.text-center:nth-child(5){
-        display: none;
-    }
 }

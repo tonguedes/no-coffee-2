@@ -2,6 +2,16 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KDQH9HQC');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NO.COFFEE</title>
@@ -12,11 +22,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
-<style>
-    
-</style>
+
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDQH9HQC" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
@@ -32,11 +44,12 @@
             <div class="row ">
                 <!-- Coluna com título e texto -->
                 <div class="col-md-8 d-flex flex-column justify-content-center text-start">
-                    <h2>Fature até <span class="highlight">R$ 1 milhão/ano</span><br>com sua própria FRANQUIA <br>DE CAFETERIA E ALIMENTAÇÃO SAUDÁVEL.
+                    <h2>Fature até <span class="highlight">R$ 1 milhão/ano</span><br>com sua própria FRANQUIA <br>DE
+                        CAFETERIA E ALIMENTAÇÃO SAUDÁVEL.
 
                     </h2><BR><BR>
-                  
-                    
+
+
                     <div class=" d-flex mt-3">
                         <div class="box me-2">
                             <img class="text-white" style="background-color: #00b3fe;"
@@ -45,7 +58,8 @@
                         </div>
                         <div class="box">
                             <img src="assets/images/iconmonstr-check-mark-multiple-lined-240.png"
-                                style="background-color: #00b3fe;" width="30px" height="30px" alt="Check"> 15 a 20% de lucratividade
+                                style="background-color: #00b3fe;" width="30px" height="30px" alt="Check"> 15 a 20% de
+                            lucratividade
                         </div>
                     </div>
                 </div>
@@ -53,49 +67,62 @@
                 <div class="col-md-4" style="margin-top: 10%;">
                     <div class="p-4 rounded shadow bg-white">
                         <h4 clas="text-center" class="mb-3">CONVERSE AGORA COM UM CONSULTOR</h4>
-                        <form class="contact-form-1" id="contactForm">
+                        <form class="contact-form-1" method="POST">
+                            <input type="hidden" name="localForm" class="local-form">
+                            <input type="hidden" name="cf_duna_origem_lead" id="cf_duna_origem_lead">
+                            <input type="hidden" name="cf_duna_origem_completa" id="cf_duna_origem_completa">
                             <div class="mb-2">
                                 <label for="nome" class="form-label">Nome</label>
-                                <input type="text" class="form-control border border-dark" id="nome" placeholder="Nome Completo">
+                                <input type="text" class="form-control border border-dark nome" id="nome"
+                                    placeholder="Nome Completo">
                             </div>
                             <div class="mb-2">
                                 <label for="email" class="form-label">E-mail</label>
-                                <input type="email" class="form-control  border border-dark" id="email" placeholder="Seu Melhor email">
+                                <input type="email" class="form-control  border border-dark email" id="email"
+                                    placeholder="Seu Melhor email">
                             </div>
                             <div class="mb-2">
                                 <label for="telefone" class="form-label">WhatsApp</label>
-                                <input type="text" class="form-control  border border-dark" id="telefone" placeholder="Seu numero WhatsApp">
+                                <input type="text" class="form-control  border border-dark telefone mask-tel"
+                                    id="telefone" maxlength="15" id="mask-tel-1" placeholder="Seu numero WhatsApp">
                             </div>
                             <div class="row">
-                                <div class="col-md-6 col-sm-12 mb-2">
+                                <div class="  col-md-6 col-sm-12 mb-2">
                                     <label for="uf">UF</label>
-                                    <select name="estado" class="form-control border border-dark" id="estado">
+                                    <select name="estado" id="estado"
+                                        class="sumir-btn  form-control border border-dark estado">
                                         <option value="">Estado - UF</option>
-                                        <!-- Opções de estados a serem preenchidas -->
                                     </select>
                                 </div>
-                                <div class="col-md-6 mb-2">
+                                <div class="  col-md-6  mb-2">
                                     <label for="cidade">Cidade</label>
-                                    <select name="cidade" class="form-control border border-dark" id="cidade">
+                                    <select name="cidade" id="cidade"
+                                        class="sumir-btn  form-control border border-dark cidade">
                                         <option value="">Selecione uma cidade</option>
-                                        <!-- Opções de cidades a serem preenchidas -->
                                     </select>
                                 </div>
+
                             </div>
+
                             <div class="form-group mb-3">
                                 <label for="capitalInvestir">Capital disponível para investir</label>
-                                <select class="form-control border border-dark" id="capitalInvestir">
-                                    <option>Capital disponível para investir</option>
-                                    <option>Até R$ 10.000</option>
-                                    <option>R$ 10.000 - R$ 50.000</option>
-                                    <option>Acima de R$ 50.000</option>
+                                <select class="form-control  border border-dark" id="capitalInvestir">
+                                    <option>Capital disponível para investir</option><br><br>
+                                    <option>de R$90 a R$100 mil</option>
+                                    <option>de R$101 mil a R$150 mil</option>
+                                    <option>acima de R$ 151 mil</option>
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-success btn-block">RECEBA APRESENTAÇÃO VIA WHATSAPP</button><br><br><br><br>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-success btn-block">RECEBA APRESENTAÇÃO VIA
+                                    WHATSAPP</button>
+                                <div class="error-message-container" style="font-size:13px; color:red"></div><br>
+                                <p>Ao enviar os dados acima, eu concordo em receber contatos e mensagens por meio do
+                                    WhatsApp, Telefones e E-mails.</p>
+                                <br><br><br>
+                            </div>
+
                         </form>
-                        
-                        <script src="form.js"></script>
-                        
                     </div>
                 </div>
             </div>
@@ -114,21 +141,24 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                 </div>
                 <div class="modal-body">
-                    <form class="contact-form-2">
+                    <form class="contact-form-2" method="POST">
+                        <input type="hidden" name="localForm" class="local-form">
+                        <input type="hidden" name="cf_duna_origem_lead" id="cf_duna_origem_lead">
+                        <input type="hidden" name="cf_duna_origem_completa" id="cf_duna_origem_completa">
                         <div class="mb-2">
                             <label for="nome" class="form-label">Nome</label>
-                            <input type="text" class="form-control border border-dark" id="nome"
+                            <input type="text" class="form-control border border-dark nome" id="nome"
                                 placeholder="Nome Completo">
                         </div>
                         <div class="mb-2">
                             <label for="email" class="form-label">E-mail</label>
-                            <input type="email" class="form-control  border border-dark" id="email"
+                            <input type="email" class="form-control  border border-dark email" id="email"
                                 placeholder="Seu Melhor email">
                         </div>
                         <div class="mb-2">
                             <label for="telefone" class="form-label">WhatsApp</label>
-                            <input type="text" class="form-control  border border-dark" id="telefone"
-                                placeholder="Seu numero WhatsApp">
+                            <input type="text" class="form-control  border border-dark telefone mask-tel" id="telefone"
+                                maxlength="15" id="mask-tel-1" placeholder="Seu numero WhatsApp">
                         </div>
                         <div class="row">
                             <div class="  col-md-6 col-sm-12 mb-2">
@@ -152,14 +182,18 @@
                             <label for="capitalInvestir">Capital disponível para investir</label>
                             <select class="form-control  border border-dark" id="capitalInvestir">
                                 <option>Capital disponível para investir</option><br><br>
-                                <option>Até R$ 10.000</option>
-                                <option>R$ 10.000 - R$ 50.000</option>
-                                <option>Acima de R$ 50.000</option>
+                                <option>de R$90 a R$100 mil</option>
+                                <option>de R$101 mil a R$150 mil</option>
+                                <option>acima de R$ 151 mil</option>
                             </select>
                         </div>
                         <div class="text-center">
                             <button type="submit" class="btn btn-success btn-block">RECEBA APRESENTAÇÃO VIA
-                                WHATSAPP</button><br><br><br>
+                                WHATSAPP</button>
+                            <div class="error-message-container" style="font-size:13px; color:red"></div><br>
+                            <p>Ao enviar os dados acima, eu concordo em receber contatos e mensagens por meio do
+                                WhatsApp, Telefones e E-mails.</p>
+                            <br><br><br>
                         </div>
 
                     </form>
@@ -172,7 +206,7 @@
     <!-- Nosso Mercado -->
     <section id="nosso-mercado" class="py-5">
         <div class="container">
-            <h1 class="text-center"><span style="background-color: black; color:#FFF;">NO.SSO</span> MERCADO</h1>
+            <h1 class="text-center"><span style="background-color: black; color:#FFF;">NO.SSO</span> MERCADO</h>
                 <div class="row normal-container-2">
                     <!-- Card 1 -->
                     <div class="col-md-4">
@@ -225,7 +259,7 @@
                             <!-- Card 1 -->
                             <div class="col-md-4">
                                 <div class="card">
-                                    <img src="/assets/images/Feed-No.Coffee-11.jpg" alt="Imagem 1" height="300">
+                                    <img src="assets/images/Feed-No.Coffee-11.jpg" alt="Imagem 1" height="300">
                                     <div class="card-body">
                                         <h5 class="card-title">R$ 51 Bilhões</h5>
                                         <p class="card-text"> Faturamento</p>
@@ -349,7 +383,7 @@
             </div>
 
             <!-- Carrossel para mobile -->
-            <div id="carouselExampleIndicators" class="carousel slide carousel-container carousel-container-3"
+            <div id="carouselExampleIndicators-2" class="carousel slide carousel-container carousel-container-3"
                 data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -422,11 +456,13 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"  style="background-color: #212529;"></span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-2"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="background-color: #212529;"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" style="background-color: #212529;"></span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-2"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
                 </button>
             </div>
 
@@ -434,7 +470,7 @@
         <div class="text-center">
             <button type="submit" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#meuModal">
                 RESERVAR MINHA ÁREA
-                </button>
+            </button>
         </div>
 
     </section>
@@ -456,8 +492,9 @@
             </p><br>
         </div>
         <div class="text-center">
-            <button type="submit" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#meuModal">SEJA UM FRANQUEADO
-                </button>
+            <button type="submit" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#meuModal">SEJA UM
+                FRANQUEADO
+            </button>
         </div>
     </section>
 
@@ -471,7 +508,8 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-6 text-center p-3">
                         <!-- Carrossel no Mobile -->
-                        <div id="logoCarousel" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
+                        <div id="logoCarousel" class="carousel slide d-block d-md-none" data-bs-ride="carousel"
+                            data-bs-interval="2000">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="bg-light rounded-pill p-4">
@@ -625,7 +663,7 @@
         </div>
 
         <!-- Carrossel para mobile -->
-        <div id="carouselExampleIndicators" class="carousel slide carousel-container " data-bs-ride="carousel">
+        <div id="carouselExampleIndicators-3" class="carousel slide carousel-container " data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
@@ -655,11 +693,11 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-3"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-3"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon"></span>
             </button>
@@ -805,7 +843,7 @@
                 </div>
 
                 <!-- Carrossel para mobile -->
-                <div id="carouselExampleIndicators" class="carousel slide carousel-container" data-bs-ride="carousel">
+                <div id="carouselExampleIndicators-4" class="carousel slide carousel-container" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card" id="card-2">
@@ -825,7 +863,7 @@
                                 <div class="card-body">
                                     <h5>LOJA <span style="color: #00b3fe; font-weight: bolder;">CONTAINER</span></h5>
                                     <p>Valor do investimento:<br><span style="font-weight: 300;">R$139,000</span></p>
-                                    <p  class="text-center"><span style="font-weight: 900;">ROI</span>: 12 meses</p>
+                                    <p class="text-center"><span style="font-weight: 900;">ROI</span>: 12 meses</p>
                                     <p>Faturamento bruto:<br><span style="font-weight: 300;">R$60,000</span></p>
                                 </div>
                             </div>
@@ -837,17 +875,17 @@
                                 <div class="card-body">
                                     <h5>LOJA <span style="color: #00b3fe; font-weight: bolder;">RUA</span></h5>
                                     <p>Valor do investimento:<br><span style="font-weight: 300;">R$139,000</span></p>
-                                    <p  class="text-center"><span style="font-weight: 900;">ROI</span>: 12 meses</p>
+                                    <p class="text-center"><span style="font-weight: 900;">ROI</span>: 12 meses</p>
                                     <p>Faturamento bruto:<br><span style="font-weight: 300;">R$60,000</span></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-4"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-4"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </button>
@@ -928,9 +966,10 @@
 
                 <!-- Bloco 1: Logo -->
                 <div class="col-md-3 row justify-content-center">
-                    <img src="ASSETS/images/logos/Camada 4.jpg" alt="Logo HPM" class="img-fluid"
+                    <img src="ASSETS/images/logos/Camada 4.jpg" alt="Logo " class="img-fluid"
                         style="width: 200px !important; height: 45px !important;">
-                    <p class="text-center">NO.COFFEE</p>
+                        
+                     <p class="text-center">NO.COFFEE</p> 
 
                 </div>
 
@@ -947,7 +986,7 @@
                     <h5 style="font-size: 18px;">Nosso consultor<br> vai te ligar!</h5>
                     <p class="mb-3">vamos te ligar do <b> DDD 17.</b> Fique<br>atento nas próximas horas</p>
                     <button class="btn  text-black btn-smaller" data-bs-toggle="modal" data-bs-target="#meuModal"
-                        style="border-radius: 20px; background-color: #00f65c; color:#FFF; font-size: 14px; font-weight: bolder;"
+                        style="border-radius: 20px; background-color: #218838; color:#FFF; font-size: 14px; font-weight: bolder;"
                         data-bs-toggle="modal" data-bs-target="#formModal"><i class="bi bi-headphones "></i>CONSULTOR
                         ON-LINE</button>
                 </div>
@@ -973,10 +1012,12 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" async
+        src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/5d46d6ee-f130-4eae-83b8-7a37999a532a-loader.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="assets/js/cidades.js"></script>
-    <script src="assets/js/form.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
